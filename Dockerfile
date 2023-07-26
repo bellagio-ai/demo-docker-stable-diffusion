@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 # RUN git clone https://github.com/bellagio-ai/demo-docker-stable-diffusion.git .
 
-COPY src/ .
+COPY ./ .
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip3 install -r /tmp/requirements.txt
