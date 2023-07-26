@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# RUN git clone https://github.com/streamlit/streamlit-example.git .
+# RUN git clone https://github.com/bellagio-ai/demo-docker-stable-diffusion.git .
 
 COPY src/ .
 
